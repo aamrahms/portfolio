@@ -46,7 +46,7 @@ body.dark .navbar a {
 
 body.dark .navbar a.active::before,
 body.dark .navbar .active-link::before {
-  background: var(--green);
+  background: var(--purple);
 }
 
 /********************** Sobre Mi **********************/
@@ -57,7 +57,7 @@ body.dark section .row .columns {
 }
 
 body.dark section .row .columns h3 {
-  color: var(--green);
+  color: var(--purple);
 }
 
 body.dark section .row .columns h4,
@@ -87,7 +87,7 @@ body.dark .servicios .row .columns {
 }
 
 body.dark .servicios .row .columns:hover {
-  border-bottom: 1rem solid var(--green);
+  border-bottom: 1rem solid var(--purple);
 }
 
 body.dark .servicios .row i {
@@ -95,7 +95,7 @@ body.dark .servicios .row i {
 }
 
 body.dark .servicios .row .columns:hover i {
-  color: var(--green);
+  color: var(--purple);
 }
 
 body.dark .servicios .row h3 {
@@ -131,7 +131,7 @@ body.dark .contactos .titulo {
 }
 
 body.dark .contactos .site-contacto {
-  color: var(--green);
+  color: var(--purple);
 }
 
 body.dark .icons a:nth-child(6) .layer span,
@@ -172,7 +172,7 @@ body.dark .sobre-mi-info p {
 /********************** Skill seccion **********************/
 
 body.dark .skills-img {
-  filter: grayscale(100%);
+  filter: contrast(0.5);
 }
 
 body.dark .skill-card:hover .skills-img {
@@ -197,7 +197,7 @@ body.dark .site-services .columns .numero {
 }
 
 body.dark .site-services .row .columns li i {
-  color: var(--green);
+  color: var(--purple);
 }
 
 /********************** Services seccion **********************/
@@ -225,7 +225,7 @@ body.dark
   .accordion.active
   .accordion-heading
   i {
-  color: var(--green);
+  color: var(--purple);
 }
 
 body.dark

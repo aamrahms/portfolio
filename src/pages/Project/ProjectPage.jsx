@@ -17,23 +17,24 @@ import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 import { FormattedMessage } from 'react-intl';
 
 /* Img */
-const proyectsImg = require.context('../../img', true);
+const projectImg = require.context('../../img', true);
 
 const Project = () => {
-  const [estadoModal17, cambiarEstadoModal17] = useState(false);
-  const [estadoModal14, cambiarEstadoModal14] = useState(false);
-  const [estadoModal15, cambiarEstadoModal15] = useState(false);
-  const [estadoModal16, cambiarEstadoModal16] = useState(false);
-  const [estadoModal13, cambiarEstadoModal13] = useState(false);
-  const [estadoModal12, cambiarEstadoModal12] = useState(false);
-  const [estadoModal11, cambiarEstadoModal11] = useState(false);
-  const [estadoModal10, cambiarEstadoModal10] = useState(false);
-  const [estadoModal9, cambiarEstadoModal9] = useState(false);
-  const [estadoModal8, cambiarEstadoModal8] = useState(false);
-  const [estadoModal7, cambiarEstadoModal7] = useState(false);
-  const [estadoModal6, cambiarEstadoModal6] = useState(false);
-  const [estadoModal5, cambiarEstadoModal5] = useState(false);
-  const [estadoModal3, cambiarEstadoModal3] = useState(false);
+  const [modal1, changeModal1] = useState(false);
+  const [modal2, changeModal2] = useState(false);
+  const [modal3, changeModal3] = useState(false);
+  const [modal4, changeModal4] = useState(false);
+  const [modal5, changeModal5] = useState(false);
+  // const [estadoModal13, cambiarEstadoModal13] = useState(false);
+  // const [estadoModal12, cambiarEstadoModal12] = useState(false);
+  // const [estadoModal11, cambiarEstadoModal11] = useState(false);
+  // const [estadoModal10, cambiarEstadoModal10] = useState(false);
+  // const [estadoModal9, cambiarEstadoModal9] = useState(false);
+  // const [estadoModal8, cambiarEstadoModal8] = useState(false);
+  // const [estadoModal7, cambiarEstadoModal7] = useState(false);
+  // const [estadoModal6, cambiarEstadoModal6] = useState(false);
+  // const [estadoModal5, cambiarEstadoModal5] = useState(false);
+  // const [estadoModal3, cambiarEstadoModal3] = useState(false);
 
   return (
     <div>
@@ -57,7 +58,10 @@ const Project = () => {
                 defaultMessage='websites'
               />
             </NavLink>
-            <NavLink to="/project/app" offset={-150} duration={500}>
+            <NavLink to="/project/certificates" offset={-150} duration={500}>
+              Certificates
+            </NavLink>
+            {/* <NavLink to="/project/app" offset={-150} duration={500}>
               Apps
             </NavLink>
             <NavLink to="/project/game" offset={-150} duration={500}>
@@ -65,106 +69,110 @@ const Project = () => {
                 id='games'
                 defaultMessage='games'
               />
-            </NavLink>
+            </NavLink> */}
           </nav>
         </section>
 
         <section className="projects__grid paginas-web">
           <div className="projects__item">
-            <a onClick={() => cambiarEstadoModal17(!estadoModal17)}>
-              <img src={proyectsImg(`./proyecto-17.jpg`)} alt="" className="projects__img" />
+            <a onClick={() => changeModal1(!modal1)}>
+              <img src={projectImg(`./aamrahms-1.png`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a onClick={() => cambiarEstadoModal14(!estadoModal14)}>
-              <img src={proyectsImg(`./proyecto-14.jpg`)} alt="" className="projects__img" />
+            <a onClick={() => changeModal5(!modal5)}>
+              <img src={projectImg(`./aamrahms-5.png`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a onClick={() => cambiarEstadoModal15(!estadoModal15)}>
-              <img src={proyectsImg(`./proyecto-15.jpg`)} alt="" className="projects__img" />
+            <a onClick={() => changeModal4(!modal4)}>
+              <img src={projectImg(`./aamrahms-4.png`)} className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a onClick={() => cambiarEstadoModal16(!estadoModal16)}>
-              <img src={proyectsImg(`./proyecto-16.jpg`)} className="projects__img" />
+            <a onClick={() => changeModal2(!modal2)}>
+              <img src={projectImg(`./aamrahms-2.png`)} alt="" className="projects__img" />
             </a>
           </div>
+          
           <div className="projects__item">
-            <a onClick={() => cambiarEstadoModal13(!estadoModal13)}>
-              <img src={proyectsImg(`./proyecto-13.jpg`)} alt="" className="projects__img" />
+            <a onClick={() => changeModal3(!modal3)}>
+              <img src={projectImg(`./aamrahms-3.png`)} alt="" className="projects__img" />
             </a>
           </div>
+          
+          
+          {/* 
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal12(!estadoModal12)}>
-              <img src={proyectsImg(`./proyecto-12.jpg`)} alt="" className="projects__img" />
+              <img src={projectImg(`./proyecto-12.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal11(!estadoModal11)}>
-              <img src={proyectsImg(`./proyecto-11.jpg`)} alt="" className="projects__img" />
+              <img src={projectImg(`./proyecto-11.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal10(!estadoModal10)}>
-              <img src={proyectsImg(`./proyecto-10.jpg`)} alt="" className="projects__img" />
+              <img src={projectImg(`./proyecto-10.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal9(!estadoModal9)}>
-              <img src={proyectsImg(`./proyecto-9.jpg`)} alt="" className="projects__img" />
+              <img src={projectImg(`./proyecto-9.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal8(!estadoModal8)}>
-              <img src={proyectsImg(`./proyecto-8.jpg`)} alt="" className="projects__img" />
+              <img src={projectImg(`./proyecto-8.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal7(!estadoModal7)}>
-              <img src={proyectsImg(`./proyecto-7.jpg`)} alt="" className="projects__img" />
+              <img src={projectImg(`./proyecto-7.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal6(!estadoModal6)}>
-              <img src={proyectsImg(`./proyecto-6.jpg`)} alt="" className="projects__img" />
+              <img src={projectImg(`./proyecto-6.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal5(!estadoModal5)}>
-              <img src={proyectsImg(`./proyecto-5.jpg`)} alt="" className="projects__img" />
+              <img src={projectImg(`./proyecto-5.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal3(!estadoModal3)}>
-              <img src={proyectsImg(`./proyecto-3.jpg`)} alt="" className="projects__img" />
+              <img src={projectImg(`./proyecto-3.jpg`)} alt="" className="projects__img" />
             </a>
-          </div>
+          </div> */}
         </section>
       </main>
 
       <Modal
-        estado={estadoModal17}
-        cambiarEstado={cambiarEstadoModal17}
+        estado={modal1}
+        cambiarEstado={changeModal1}
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-17-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={projectImg(`./aamrahms-1.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
-                  id='projects-info-17-p1'
-                  defaultMessage='TatoFood, page created for the sale of fast food.'
+                  id='projects-info-1-p1'
+                  defaultMessage='Event Booking and Scheduling System'
                 />
               </p>
               <p>
                 <FormattedMessage
-                  id='projects-info-17-p2'
-                  defaultMessage='Designed to visually attract the user, with excellent quality culinary preparations and an interface with attractive transitions.'
+                  id='projects-info-1-p2'
+                  defaultMessage='Designed to visually attract the user, provide an interface with attractive transitions and an efficient way to keep track of events to attend. Google Calendar integration provides a seamless scheduling as well.'
                 />
               </p>
               <div className="eins-modal-text-2">
-                <span>Link:</span> <a href="https://nahuel61920.github.io/TatoFood/" target="_blank">https://tato-food.com</a>
+                <span>Link:</span> <a href="https://docs.google.com/presentation/d/10FEWh-LHzrsumnHTzBs8vgkBDTG0aU2F/edit?usp=sharing&ouid=110023201797484568919&rtpof=true&sd=true" target="_blank">https://eventschedular.com</a>
               </div>
               <div className="eins-modal-text-3">
                 <span>
@@ -173,40 +181,44 @@ const Project = () => {
                     defaultMessage='Used technology:'
                   />
                 </span>
+                {/* React.js, Redux, SASS, MaterialUI, Axios, REST API, Express, Node.js */}
                 <div className="eins-modal-tec">
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="" />
+                  {/* <img src="" alt="" /> */}
+                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" alt="" />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </Modal>
-
+          
       <Modal
-        estado={estadoModal14}
-        cambiarEstado={cambiarEstadoModal14}
+        estado={modal2}
+        cambiarEstado={changeModal2}
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-14-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={projectImg(`./aamrahms-2.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
-                  id='projects-info-14-p1'
-                  defaultMessage='Justice, page created for law firm.'
+                  id='projects-info-2-p1'
+                  defaultMessage='Readers Paradise'
                 />
               </p>
               <p>
                 <FormattedMessage
-                  id='projects-info-14-p2'
-                  defaultMessage='Focused on showing the client the value, experience and professionalism of the lawyers they can hire, choosing the category of their specific case.'
+                  id='projects-info-2-p2'
+                  defaultMessage='Focused on enhancing the readers experience, providing them with a platform for sharing their feedback on books and cataloguing their reads on virtual shelves.'
                 />
               </p>
               <div className="eins-modal-text-2">
-                <span>Link:</span> <a href="https://nahuel61920.github.io/Justice" target="_blank">https://justice.com</a>
+                <span>Link:</span> <a href="https://drive.google.com/file/d/1K5i70TPmlazAIxmld9Qh4IM9fOLFa1G-/view?usp=sharing" target="_blank">https://readersparadise.com</a>
               </div>
               <div className="eins-modal-text-3">
                 <span>
@@ -215,41 +227,43 @@ const Project = () => {
                     defaultMessage='Used technology:'
                   />
                 </span>
+                {/* Spring Boot, Hibernate, MySQL, REST API, BootStrap */}
                 <div className="eins-modal-tec">
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/hibernate.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="" />
+                  <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" alt="" />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </Modal>
-
+      
       <Modal
-        estado={estadoModal15}
-        cambiarEstado={cambiarEstadoModal15}
+        estado={modal3}
+        cambiarEstado={changeModal3}
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-15-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={projectImg(`./aamrahms-3.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
-                  id='projects-info-15-p1'
-                  defaultMessage='Magical Effect is a portfolio created for a video development agency.'
+                  id='projects-info-3-p1'
+                  defaultMessage='Social Tracker'
                 />
               </p>
               <p>
                 <FormattedMessage
-                  id='projects-info-15-p2'
-                  defaultMessage='It shows the projects carried out over the years for different types of clients, names their services and years of experience in the industry.'
+                  id='projects-info-3-p2'
+                  defaultMessage='It connects people through chat and location exchange features, you can add a friend, request their location and chat with them extensively. '
                 />
               </p>
               <div className="eins-modal-text-2">
-                <span>Link:</span> <a href="https://nahuel61920.github.io/Magical-Effect/" target="_blank">https://magicaleffect.com</a>
+                <span>Link:</span> <a href="" target="_blank">https://socialtracker.com</a>
               </div>
               <div className="eins-modal-text-3">
                 <span>
@@ -258,36 +272,40 @@ const Project = () => {
                     defaultMessage='Used technology:'
                   />
                 </span>
+                {/* HTML5, CSS3, JavaScript, jQuery, JSP, Java, MySQL */}
                 <div className="eins-modal-tec">
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
+                  {/* <img src="" alt="" /> */}
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg " alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                  <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" alt="" />
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="" />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </Modal>
-
+    
       <Modal
-        estado={estadoModal16}
-        cambiarEstado={cambiarEstadoModal16}
+        estado={modal4}
+        cambiarEstado={changeModal4}
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-16-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={projectImg(`./aamrahms-4.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
-                  id='projects-info-16-p1'
-                  defaultMessage='Crystal Heart Store, is an online clothing store.'
+                  id='projects-info-4-p1'
+                  defaultMessage='Twitter application on Cloud'
                 />
               </p>
               <p>
                 <FormattedMessage
-                  id='projects-info-16-p2'
-                  defaultMessage='Designed so that the customer can search for products in a very fast and easy way, can calculate the shipment and pay online.'
+                  id='projects-info-4-p2'
+                  defaultMessage='Implemented a DevOps hosting project on AWS, orchestrating frontend and backend services for a Twitter-like application, complete with automated scaling tests and insightful dashboards using ECS and CloudWatch Insights.'
                 />
               </p>
               <div className="eins-modal-text-2">
@@ -311,14 +329,14 @@ const Project = () => {
           </div>
         </div>
       </Modal>
-
+      {/* 
       <Modal
         estado={estadoModal13}
         cambiarEstado={cambiarEstadoModal13}
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-13-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={projectImg(`./proyecto-13-com.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
@@ -360,7 +378,7 @@ const Project = () => {
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-12-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={projectImg(`./proyecto-12-com.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
@@ -402,7 +420,7 @@ const Project = () => {
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-11-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={projectImg(`./proyecto-11-com.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
@@ -443,7 +461,7 @@ const Project = () => {
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-10-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={projectImg(`./proyecto-10-com.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
@@ -484,7 +502,7 @@ const Project = () => {
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-9-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={projectImg(`./proyecto-9-com.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
@@ -525,7 +543,7 @@ const Project = () => {
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-8-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={projectImg(`./proyecto-8-com.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
@@ -567,7 +585,7 @@ const Project = () => {
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-7-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={projectImg(`./proyecto-7-com.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
@@ -608,7 +626,7 @@ const Project = () => {
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-6-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={projectImg(`./proyecto-6-com.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
@@ -650,7 +668,7 @@ const Project = () => {
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-5-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={projectImg(`./proyecto-5-com.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
@@ -693,7 +711,7 @@ const Project = () => {
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={proyectsImg(`./proyecto-3.jpg`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={projectImg(`./proyecto-3.jpg`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
@@ -725,7 +743,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-      </Modal>
+      </Modal> */}
 
       <ScrollToTop />
 

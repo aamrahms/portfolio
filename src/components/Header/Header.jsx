@@ -35,7 +35,7 @@ const Header = () => {
             <div id="menu-btn" className="fas fa-bars" onClick={menuDesplegable}></div>
 
             <NavLink className="logo" to="/">
-                <p>&hearts;<span>AAMRAH</span>&hearts;</p>
+                <p>(=<span>AAMRAH</span>=)</p>
             </NavLink>
 
             <nav className="navbar">
@@ -51,12 +51,18 @@ const Header = () => {
                         defaultMessage='About me'
                     />
                 </Link>
-                <Link to="servicios" spy={true} offset={-150} href="#servicios">
+                <Link to="skills" spy={true} offset={-150} href="#skills">
+                    <FormattedMessage
+                        id='skills'
+                        defaultMessage='Skills'
+                    />
+                </Link>
+                {/* <Link to="servicios" spy={true} offset={-150} href="#servicios">
                     <FormattedMessage
                         id='services'
                         defaultMessage='Services'
                     />
-                </Link>
+                </Link> */}
                 <Link to="proyectos" spy={true} offset={-150} href="#proyectos">
                     <FormattedMessage
                         id='projects'
@@ -69,11 +75,13 @@ const Header = () => {
                         defaultMessage='Contact'
                     />
                 </Link>
-                <div id="buttons">
+                {/* <div id="buttons"> */}
                     {/* img source needs to be github : https://nahuel61920.github.io/Portafoliovirtual/img/en.png*/}
-                    <p onClick={() => idioma.selectLanguage('en-US')}> U+1F1EE U+1F1F3 </p> 
-                    <img onClick={() => idioma.selectLanguage('es-ES')} src="https://nahuel61920.github.io/Portafoliovirtual/img/es.png" alt="España" />
-                </div>
+                    {/* <p onClick={() => idioma.selectLanguage('en-US')}> U+1F1EE U+1F1F3 </p> 
+                    <img onClick={() => idioma.selectLanguage('es-ES')} src="https://nahuel61920.github.io/Portafoliovirtual/img/es.png" alt="España" /> */}
+                    {/* <img onClick={() => idioma.selectLanguage('en-US')} src="https://nahuel61920.github.io/Portafoliovirtual/img/en.png" alt="EEUU" />
+                    <img onClick={() => idioma.selectLanguage('es-ES')} src="https://nahuel61920.github.io/Portafoliovirtual/img/es.png" alt="España" /> */}
+                {/* </div> */}
             </nav>
             <div className="switch" id="switch">
                 <DarkMode />

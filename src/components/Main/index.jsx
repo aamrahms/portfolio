@@ -5,10 +5,11 @@ import About from './About';
 import Service from './Service';
 import Project from './Project';
 import Contact from './Contact';
+import AboutNew from './AboutNew';
 
 const Main = () => (
     <main>
-        <About />        
+        <AboutNew />        
 
         <Service />
         

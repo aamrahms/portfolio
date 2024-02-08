@@ -1,0 +1,72 @@
+<!-- <div id="container"></div>
+<a href="" class="hidden"></a>
+<script>
+    var fontsize=72;
+     if(window.screen.width >700)
+        fontSize=32;
+    else if(window.screen.width <120)
+        fontSize=57;
+    var vara=new Vara(
+        "#container",
+        "",
+        [
+            {
+                text: "Hi its me, Aamrah",
+                y: 150,
+                fromCurrentPosition : {y : false},
+                duration: 3000
+            },
+            {
+                text: "Hi its me, Aamrah",
+                y: 150,
+                fromCurrentPosition : {y : false},
+                delay: 3000,
+                duration: 3000
+            },
+            {
+                text: "Hi its me, Aamrah",
+                y: 150,
+                fromCurrentPosition : {y : false},
+                delay: 3000,
+                duration: 4500
+            },
+
+        ],
+        {
+            strokeWidth : 2,
+            color: "#fff",
+            fontSize : fontSize,
+            textAlign : "center"
+        }
+    )
+    vara.ready(function(){
+        var erase= true;
+        vara.animationEnd(function(i,o)){
+            if(i=="no_erase") erase=false;
+            if(erase){
+                o.container.style.transition="opacity 1s 1s";
+                o.container.style.opacity=0;
+            }
+        }
+    });
+</script>
+<style>
+    *{
+        margin: 0;
+        padding : 0;
+    }
+    body{
+        background-image: url();
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        overflow: hidden;
+        color: white;
+    }
+    #container{
+        width: 80%;
+        margin: 20px auto;
+        min-height: 700px;
+        margin-top: 150px;
+    }    
+</style> -->

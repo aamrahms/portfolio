@@ -11,16 +11,13 @@ const particlesConfig = {
       value: "#1b1e34"
     },
     shape: {
-      type: "polygon",
+      type: "image",
       stroke: {
         width: 0,
         color: "#000"
       },
-      polygon: {
-        sides: 6
-      },
       image: {
-        src: "img/github.svg",
+        src: "https://static.vecteezy.com/system/resources/thumbnails/009/391/788/small_2x/white-cloud-clipart-design-illustration-free-png.png",
         width: 100,
         height: 100
       }

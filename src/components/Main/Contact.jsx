@@ -38,7 +38,7 @@ const Contact = () => (
         </h3>
 
         <div className="icons">
-            <a href="mailto:estebancarrizo619@gmail.com" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+            <a href="mailto:aamrah.ams@gmail.com" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
                 <div className="layer">
                     <span></span>
                     <span></span>
@@ -86,7 +86,7 @@ const Contact = () => (
                     telegram
                 </div>
             </a>
-            <a href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+            <a href="https://www.linkedin.com/in/aamraha/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
                 <div className="layer">
                     <span></span>
                     <span></span>

@@ -12,6 +12,7 @@ import Services from "./pages/Service/ServicesPage";
 import Project from "./pages/Project/ProjectPage";
 import ProjectApp from "./pages/Project/ProjectApp";
 import ProjectGame from "./pages/Project/ProjectGame";
+// import Test from "./pages/Test/Test";
 
 import RouterScrollTop from "./components/ScrollToTop/RouterScrollTop"
 
@@ -47,6 +48,7 @@ function App() {
                         <Route exact path="/project" element={<Project />}></Route>
                         <Route exact path="/project/app" element={<ProjectApp />} />
                         <Route exact path="/project/game" element={<ProjectGame />} />
+                        {/* <Route exact path="/test" element={<Test />} /> */}
                     </Routes>
 
             }

@@ -55,7 +55,7 @@
   content: "";
   height: 3px;
   width: 0;
-  background: var(--green);
+  background: var(--purple);
   position: absolute;
   left: 0;
   bottom: -1.2rem;
@@ -71,7 +71,7 @@
   content: "";
   height: 3px;
   width: 100%;
-  background: var(--secundario);
+  background: var(--secondary);
   position: absolute;
   left: 0;
   bottom: -1.2rem;
@@ -217,7 +217,7 @@ body.dark #darkMode::after {
   }
 
   .navbar a:hover {
-    color: var(--secundario) !important;
+    color: var(--secondary) !important;
   }
 
   .navbar a::before {

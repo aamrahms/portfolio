@@ -11,18 +11,18 @@
 
 
     "greeting": "Hello",
-    "name": "I am Nahuel Carrizo",
+    "name": "I am Aamrah",
     "rol": "Full-stack developer",
 
 
-    "im": "who I am",
-    "description": "My name is Esteban Nahuel Carrizo and I am a full stack developer.",
-    "my-description": "I have been working on web designing and web development for 2 years. Constantly updating the technologies I already master, but also looking to learn new technologies to enrich my skills and improve my good practices as a developer.",
+    "im": "who am I",
+    "description": "My name is Aamrah and I am a full stack developer.",
+    "my-description": "I have been working on web designing and web development for the past  years. Constantly updating the technologies I already master, but also looking to learn new technologies to enrich my skills and improve my good practices as a developer.",
     "years": "Age: ",
     "from": "From: ",
     "btn-know-more": "Read more",
     "tools": "Tools",
-
+    "my-experience": "I have 4 years of experience working in a full stack developer capacity at Wipro, Persistent, Bindable and Biodiversity for a livable climate.",
 
     "design": "Design UX/UI",
     "design-info": "Design of attractive interfaces for both web and mobile users, making the most of the brand or product that the client wishes to exploit on their website",
@@ -44,12 +44,15 @@
     "contact-info": "Contact me by: ",
 
 
-    "footer-info": "Page created by Nahuel61920",
+    "footer-info": "Page created by Aamrah",
 
-
-    "about-info-1": "Hi, I'm Esteban Nahuel Carrizo, a student at the Technological University of Tucumán; I consider myself a person passionate about programming and web development since in 2020 I had the opportunity to get to know this world of the front-end and I was able to create my first web page only using HTML and CSS from there, I felt a great passion for web development, since you can do amazing things knowing how to use HTML, CSS, JavaScript and to this day I still feel that same passion when I create a web page.",
-    "about-info-2": "I consider myself a self-taught person since I like to be constantly learning day by day, both new technologies and new development methods that help me polish and raise my level of learning.",
-    "about-info-3": "I have experience working as a freelance web designer and developer, which gave me the opportunity to work on many interesting projects, adapting to the client's needs and budget, which allowed me to improve my skills and knowledge; Additionally, I have also had the opportunity to be part of some online and face-to-face courses that helped me enrich my skills and learn a little more about this beautiful world of web development.",
+    "about-info-1": "Welcome to my humble digital abode! Let me walk you through my life. I am an engineer both in mind and heart, I started my journey into CS much like every other person out there, by opting it for the lack of a better alternative. Kidding!",
+    "about-info-2": "I love creating web experiences that are fun and easy to use. Something I personally would love to use and that’s what most of my academic and personal projects are born out of.  I have pursued careers in a Dora the Explorer sort of way.",
+    "about-info-3": "I have experience working as a support administrator and engineer, Backend developer and Front end developer.",
+    "about-info-4" : "Growing up I have always been intrigued by How Its Made videos, the process of making something out of the basics has enlightened my fancy and that’s how I developed a penchant for creation. Add to that my passion for reading books set in the world of fantasy, I believe it was inevitable that this is where am at.",
+    "about-info-1o": "Hi, I'm Aamrah, a student at the Technological University of Tucumán; I consider myself a person passionate about programming and web development since in 2020 I had the opportunity to get to know this world of the front-end and I was able to create my first web page only using HTML and CSS from there, I felt a great passion for web development, since you can do amazing things knowing how to use HTML, CSS, JavaScript and to this day I still feel that same passion when I create a web page.",
+    "about-info-2o": "I consider myself a self-taught person since I like to be constantly learning day by day, both new technologies and new development methods that help me polish and raise my level of learning.",
+    "about-info-3o": "I have experience working as a freelance web designer and developer, which gave me the opportunity to work on many interesting projects, adapting to the client's needs and budget, which allowed me to improve my skills and knowledge; Additionally, I have also had the opportunity to be part of some online and face-to-face courses that helped me enrich my skills and learn a little more about this beautiful world of web development.",
     "btn-cv": "Download CV",
     "about-skills-1": "More than a year of professional experience in this language, allows me to perform without problems in the industry.",
     "about-skills-2": "More than a year of work experience in this language, I use it daily to develop web designs and interfaces.",

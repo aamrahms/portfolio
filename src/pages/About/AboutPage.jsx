@@ -12,7 +12,7 @@ import cv from '../../cv/cv.pdf';
 import { FormattedMessage } from 'react-intl';
 
 /* Img */
-import imgabout from '../../img/home.jpg';
+import imgabout from '../../img/Aamrah.jpg';
 
 const About = () => {
 
@@ -69,6 +69,11 @@ const About = () => {
                   <FormattedMessage
                     id='about-info-3'
                     defaultMessage="I have experience working as a freelance web designer and developer, which gave me the opportunity to work on many interesting projects, adapting to the client's needs and budget, which allowed me to improve my skills and knowledge; Additionally, I have also had the opportunity to be part of some online and face-to-face courses that helped me enrich my skills and learn a little more about this beautiful world of web development."
+                  />
+                </p>
+                <p>
+                  <FormattedMessage
+                    id='about-info-4'
                   />
                 </p>
               </div>
@@ -173,6 +178,85 @@ const About = () => {
                   />
                 </p>
               </div>
+              {/* Vue JS*/}
+              <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <img alt="express" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" title="jQuery" />
+                <h2 className="skill-name">Vue JS</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-10'
+                    defaultMessage='It is a framework that I use mostly to be able to manage my APIs in the best way and my http execution model.'
+                  />
+                </p>
+              </div>
+              {/* 11 Redux */}
+              <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <img alt="express" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" title="jQuery" />
+                <h2 className="skill-name">Redux</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-11'
+                    defaultMessage='It is a framework that I use mostly to be able to manage my APIs in the best way and my http execution model.'
+                  />
+                </p>
+              </div>
+              {/* 12 Java */}
+              <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <img alt="express" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title="jQuery" />
+                <h2 className="skill-name">Java</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-12'
+                    defaultMessage='It is a framework that I use mostly to be able to manage my APIs in the best way and my http execution model.'
+                  />
+                </p>
+              </div>
+              {/* 13 c */}
+              <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <img alt="express" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" title="jQuery" />
+                <h2 className="skill-name">C</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-13'
+                    defaultMessage='It is a framework that I use mostly to be able to manage my APIs in the best way and my http execution model.'
+                  />
+                </p>
+              </div>
+              {/* 14 Spring*/} 
+              <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <img alt="express" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" title="jQuery" />
+                <h2 className="skill-name">Spring</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-13'
+                    defaultMessage='It is a framework that I use mostly to be able to manage my APIs in the best way and my http execution model.'
+                  />
+                </p>
+              </div>
+              {/* 15 Kafka*/} 
+              <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <img alt="express" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" title="jQuery" />
+                {/* <img alt="express" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg" title="jQuery" /> */}
+                <h2 className="skill-name">Kafka</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-13'
+                    defaultMessage='It is a framework that I use mostly to be able to manage my APIs in the best way and my http execution model.'
+                  />
+                </p>
+              </div>
+              {/* 16 */} 
+              <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <img alt="express" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" title="jQuery" />
+                <h2 className="skill-name">Amazon Web Services</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-13'
+                    defaultMessage='It is a framework that I use mostly to be able to manage my APIs in the best way and my http execution model.'
+                  />
+                </p>
+              </div>
+              {/* 16 */}
             </div>
           </div>
         </section>

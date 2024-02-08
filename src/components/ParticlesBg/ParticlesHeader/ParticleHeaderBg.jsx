@@ -167,7 +167,7 @@ export default function ParticleHeaderBg() {
                   height: 20,
                 },
                 {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
                   width: 20,
                   height: 20,
                 },
@@ -203,6 +203,51 @@ export default function ParticleHeaderBg() {
                 },
                 {
                   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/hibernate.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-plain-wordmark.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg",
                   width: 20,
                   height: 20,
                 },
@@ -234,7 +279,7 @@ export default function ParticleHeaderBg() {
                   height: 20,
                 },
                 {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
                   width: 20,
                   height: 20,
                 },
@@ -270,6 +315,46 @@ export default function ParticleHeaderBg() {
                 },
                 {
                   src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/hibernate.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg",
                   width: 20,
                   height: 20,
                 },
