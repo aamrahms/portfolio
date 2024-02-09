@@ -10,6 +10,7 @@ import { FormattedMessage } from 'react-intl';
 /* Img */
 import imgabout from '../../img/Aamrah.jpg';
 const img = require.context('../../img', true);
+console.log(process.env);
 
 const About = () => (
     
