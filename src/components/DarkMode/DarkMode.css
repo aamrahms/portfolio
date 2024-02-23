@@ -71,7 +71,8 @@ body.dark .skill h5 {
 }
 
 body.dark main section .row .columns .skill img {
-  filter: grayscale(100%);
+  filter: contrast(0.5);
+  /*grayscale(100%);*/
 }
 
 body.dark main section .row .columns .skill img:hover {

@@ -7,6 +7,8 @@ import { ButtomGet } from '../ButtomGet/ButtomGet';
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
 
+
+
 /* Img */
 import imgabout from '../../img/Aamrah.jpg';
 const img = require.context('../../img', true);
@@ -37,7 +39,7 @@ const About = () => (
               <p>
                 <FormattedMessage
                   id='about-info-1'
-                  defaultMessage="Welcome to my humble digital abode! Let me walk you through my life. I am an engineer both in mind and heart, I started my journey into CS much like every other person out there, by opting it for the lack of a better alternative. Kidding!"
+                  defaultMessage="Welcome to my digital space! Let me introduce myself. I am an engineer by profession and passion."
                 />
               </p>
 
@@ -45,25 +47,25 @@ const About = () => (
                 <p>
                   <FormattedMessage
                     id='about-info-2'
-                    defaultMessage='I love creating web experiences that are fun and easy to use. Something I personally would love to use and that’s what most of my academic and personal projects are born out of.  I have pursued careers in a Dora the Explorer sort of way.'
+                    defaultMessage='My passion lies in crafting web experiences that are both enjoyable and intuitive. I strive to create solutions that I would personally love to use, driving many of my academic and personal projects.'
                   />
                 </p>
 
                 <p>
                   <FormattedMessage
                     id='about-info-3'
-                    defaultMessage="I have experience working as a support administrator and engineer, Backend developer and Front end developer."
+                    defaultMessage="My career path has been diverse, akin to the adventures of Dora the Explorer. With experience ranging from support administration to backend and frontend development, I bring a versatile skill set to the table. From a young age, I've been fascinated by the process of creation, often inspired by &quot;How It's Made&quot; videos. Coupled with my love for fantasy literature, it's no surprise that I find myself here today."
                   />
                 </p>
                 <p>
                   <FormattedMessage
                     id='about-info-4'
-                    defaultMessage="Growing up I have always been intrigued by How Its Made videos, the process of making something out of the basics has enlightened my fancy and that’s how I developed a penchant for creation. Add to that my passion for reading books set in the world of fantasy, I believe it was inevitable that this is where am at."
+                    defaultMessage="Outside of work, you'll likely find me exploring new technologies, diving into a captivating fantasy novel, or indulging in a spot of DIY crafting. I believe in continuous learning and growth, always seeking new challenges to broaden my horizons. Thank you for visiting my digital abode. I look forward to connecting and exploring potential opportunities together!"
                   />
                 </p>
               </div>
 
-              <div className="skill">
+              {/* <div className="skill">
                     <div>
                         <img alt="wipro" className="icons-skils" src={img(`./wipro.svg`)} />
                         <h5>Wipro Limited</h5>
@@ -80,7 +82,7 @@ const About = () => (
                         <img alt="Biodiversity for a livable climate" className="icons-skils" src={img(`./b4c.jpeg`)} />
                         <h5>Biodiversity for a livable climate</h5>
                     </div>    
-            </div>
+            </div> */}
 
               <div className="btn-info">
                   {/* onClick={readMore} */}
@@ -205,151 +207,7 @@ const About = () => (
                     </div>
                 </div>
             </div>*/}
-            <section className="skills" id="skills">
-            <div className="columns col-skill" data-aos="fade-left" data-aos-delay="650">
-
-                <h2 className="heading">
-                    Skills
-                </h2>
-                <h4>Front-End</h4>
-                <div className="skill">
-                    <div>
-                        <img alt="HTML" className="icons-skils" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
-                        <h5>HTML</h5>
-                    </div>
-                    <div>
-                        <img alt="CSS" className="icons-skils" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
-                        <h5>CSS</h5>
-                    </div>
-                    <div>
-                        <img alt="Js" className="icons-skils" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
-                        <h5>JavaScript</h5>
-                    </div>
-                    <div>
-                        <img alt="jQuery" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" />
-                        <h5>jQuery</h5>
-                    </div>
-                    <div>
-                        <img alt="Sass" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
-                        <h5>Sass</h5>
-                    </div>
-                    <div>
-                        <img alt="Bootstrap" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-                        <h5>Bootstrap</h5>
-                    </div>
-                    <div>
-                        <img alt="Tailwindcss" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
-                        <h5>Tailwindcss</h5>
-                    </div>
-                    <div>
-                        <img alt="React" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                        <h5>React</h5>
-                    </div>
-                    <div>
-                        <img alt="Redux" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
-                        <h5>Redux</h5>
-                    </div>
-                    <div>
-                        <img alt="VueJS" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
-                        <h5>VueJS</h5>
-                    </div>
-                </div>
-                <h4>Back-End</h4>
-                <div className="skill">
-                    <div>
-                        <img alt="java" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                        <h5>Java</h5>
-                    </div>
-                    <div>
-                        <img alt="Spring Boot" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
-                        <h5>Spring Boot</h5>
-                    </div>
-                    <div>
-                        <img alt="Hibernate" className="icons-skils" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/hibernate.svg" />
-                        <h5>Hibernate</h5>
-                    </div>
-                    <div>
-                        <img alt="Python" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                        <h5>Python</h5>
-                    </div>
-                    <div>
-                        <img alt="C" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                        <h5>C</h5>
-                    </div>
-                    <div>
-                        <img alt="C sharp" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
-                        <h5>C sharp</h5>
-                    </div>
-                    <div>
-                        <img alt="Nodejs" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                        <h5>NodeJs</h5>
-                    </div>
-                    <div>
-                        <img alt="express" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
-                        <h5>Express</h5>
-                    </div>
-                    <div>
-                        <img alt="php" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
-                        <h5>PHP</h5>
-                    </div>
-                </div>
-                <h4>Cloud</h4>
-                <div className="skill">
-                    <div>
-                        <img alt="aws" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" />
-                        <h5>AWS</h5>
-                    </div>
-                    <div>
-                        <img alt="azure" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" />
-                        <h5>Azure</h5>
-                    </div>
-                    <div>
-                        <img alt="docker" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
-                        <h5>Docker</h5>
-                    </div>
-                    <div>
-                        <img alt="kubernetes" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" />
-                        <h5>Kubernetes</h5>
-                    </div>
-                    <div>
-                        <img alt="terraform" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" />
-                        <h5>Terraform</h5>
-                    </div>
-                    <div>
-                        <img alt="jenkins" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" />
-                        <h5>Jenkins</h5>
-                    </div>
-                    <div>
-                        <img alt="confluence" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg" />
-                        <h5>Confluence</h5>
-                    </div>
-                </div>
-                <h4>Database</h4>
-                <div className="skill">
-                    <div>
-                        <img alt="sql" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
-                        <h5>SQL</h5>
-                    </div>
-                    <div>
-                        <img alt="postgress" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" />
-                        <h5>Postgress</h5>
-                    </div>
-                    <div>
-                        <img alt="mongodb" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" />
-                        <h5>MongodDB</h5>
-                    </div>
-                    <div>
-                        <img alt="redis" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-plain-wordmark.svg" />
-                        <h5>Redis</h5>
-                    </div>
-                    <div>
-                        <img alt="kafka" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" />
-                        <h5>Kafka</h5>
-                    </div>
-                </div>
-               
-            </div>
-            </section>
+            
         </div>
     </section>
 );
