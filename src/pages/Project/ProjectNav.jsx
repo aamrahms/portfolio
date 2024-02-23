@@ -20,9 +20,9 @@ function ProjectNav() {
             <NavLink to="/project/app" offset={-150} duration={500}>
               Apps
             </NavLink>
-            <NavLink to="/project/certificates" offset={-150} duration={500}>
+            {/* <NavLink to="/project/certificates" offset={-150} duration={500}>
               Certificates
-            </NavLink>
+            </NavLink> */}
             
             {/* 
             <NavLink to="/project/game" offset={-150} duration={500}>
