@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://aamrahms.github.io/portfolio/static/css/main.df19b8f9.css",
-    "main.js": "https://aamrahms.github.io/portfolio/static/js/main.346cc8ed.js",
+    "main.css": "https://aamrahms.github.io/portfolio/static/css/main.a3e55d21.css",
+    "main.js": "https://aamrahms.github.io/portfolio/static/js/main.5175ed90.js",
     "static/js/787.159dca72.chunk.js": "https://aamrahms.github.io/portfolio/static/js/787.159dca72.chunk.js",
     "static/media/aamrahms-2.png": "https://aamrahms.github.io/portfolio/static/media/aamrahms-2.670f73bd0123941dfe69.png",
     "static/media/aamrahms-5.png": "https://aamrahms.github.io/portfolio/static/media/aamrahms-5.f820da2f0d89a47ed700.png",
@@ -62,6 +62,7 @@
     "static/media/proyecto-app-11.jpg": "https://aamrahms.github.io/portfolio/static/media/proyecto-app-11.e525fd728463bb04ca8a.jpg",
     "static/media/aamrahms-4.png": "https://aamrahms.github.io/portfolio/static/media/aamrahms-4.aac0a7449cb660fac853.png",
     "static/media/proyecto-13.jpg": "https://aamrahms.github.io/portfolio/static/media/proyecto-13.ad232d20985c44a17b11.jpg",
+    "static/media/aamrahms-6.jpg": "https://aamrahms.github.io/portfolio/static/media/aamrahms-6.e69b65ce96c260805e27.jpg",
     "static/media/proyecto-14.jpg": "https://aamrahms.github.io/portfolio/static/media/proyecto-14.b8b7c53a600a323ce170.jpg",
     "static/media/proyecto-8.jpg": "https://aamrahms.github.io/portfolio/static/media/proyecto-8.4322260e9f80562a6ce0.jpg",
     "static/media/proyecto-app-4.jpg": "https://aamrahms.github.io/portfolio/static/media/proyecto-app-4.cdc4f24bd567f65717c7.jpg",
@@ -77,12 +78,12 @@
     "static/media/proyecto-app-12.jpg": "https://aamrahms.github.io/portfolio/static/media/proyecto-app-12.0d8495ab02ed11fe1640.jpg",
     "static/media/proyecto-app-2.jpg": "https://aamrahms.github.io/portfolio/static/media/proyecto-app-2.5d8ddf1cc2638b419fd5.jpg",
     "index.html": "https://aamrahms.github.io/portfolio/index.html",
-    "main.df19b8f9.css.map": "https://aamrahms.github.io/portfolio/static/css/main.df19b8f9.css.map",
-    "main.346cc8ed.js.map": "https://aamrahms.github.io/portfolio/static/js/main.346cc8ed.js.map",
+    "main.a3e55d21.css.map": "https://aamrahms.github.io/portfolio/static/css/main.a3e55d21.css.map",
+    "main.5175ed90.js.map": "https://aamrahms.github.io/portfolio/static/js/main.5175ed90.js.map",
     "787.159dca72.chunk.js.map": "https://aamrahms.github.io/portfolio/static/js/787.159dca72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df19b8f9.css",
-    "static/js/main.346cc8ed.js"
+    "static/css/main.a3e55d21.css",
+    "static/js/main.5175ed90.js"
   ]
 }
