@@ -99,7 +99,7 @@ section .row {
   gap: 1.5rem;
 }
 #experience {
-  grid-template-columns: repeat(3, minmax(35rem, 1fr));
+  grid-template-columns: repeat(autofit, minmax(35rem, 1fr));
 }
 
 section .row .columns {
