@@ -245,7 +245,7 @@ const Project = () => {
                 />
               </p>
               <div className="eins-modal-text-2">
-                <span>Link:</span> <a href="" target="_blank">https://socialtracker.com</a>
+                <span>Link:</span> <a href="https://docs.google.com/presentation/d/1d2kfQ_cQiHxjLeFCSeUZhoOyM4EmCbru/edit?usp=sharing&ouid=110023201797484568919&rtpof=true&sd=true" target="_blank">https://socialtracker.com</a>
               </div>
               <div className="eins-modal-text-3">
                 <span>
@@ -291,7 +291,49 @@ const Project = () => {
                 />
               </p>
               <div className="eins-modal-text-2">
-                <span>Link:</span> <a href="https://crystalheart.empretienda.com.ar/" target="_blank">https://crystalheart.com</a>
+                <span>Link:</span> <a href="https://docs.google.com/presentation/d/1buaNqwvz_l0lcPLsJCNcyXVFveuxSXSk/edit?usp=sharing&ouid=110023201797484568919&rtpof=true&sd=true" target="_blank">https://twitterapp.com</a>
+              </div>
+              <div className="eins-modal-text-3">
+                <span>
+                  <FormattedMessage
+                    id='projects-tec'
+                    defaultMessage='Used technology:'
+                  />
+                </span>
+                <div className="eins-modal-tec">
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Modal>
+      
+      <Modal
+        estado={modal5}
+        cambiarEstado={changeModal5}
+      >
+        <div className="content-modal">
+          <div className="pw-content">
+            <div className="eins-modal-preview"><img src={projectImg(`./aamrahms-5.png`)} alt="" /></div>
+            <div className="eins-modal-text">
+              <p>
+                <FormattedMessage
+                  id='projects-info-13-p1'
+                  defaultMessage='Web animation for Fourth Wing'
+                />
+              </p>
+              <p>
+                <FormattedMessage
+                  id='projects-info-13-p2'
+                  defaultMessage='A fun project to explore animation with CSS and Jquery.'
+                />
+              </p>
+              <div className="eins-modal-text-2">
+                <span>Link:</span> <a href="https://aamrahms.github.io/FourthWing/" target="_blank">https://fourthwing.com</a>
               </div>
               <div className="eins-modal-text-3">
                 <span>
@@ -313,27 +355,27 @@ const Project = () => {
       </Modal>
       {/* 
       <Modal
-        estado={estadoModal13}
-        cambiarEstado={cambiarEstadoModal13}
+        estado={modal5}
+        cambiarEstado={changeModal5}
       >
         <div className="content-modal">
           <div className="pw-content">
-            <div className="eins-modal-preview"><img src={projectImg(`./proyecto-13-com.png`)} alt="" /></div>
+            <div className="eins-modal-preview"><img src={projectImg(`./aamrahms-5.png`)} alt="" /></div>
             <div className="eins-modal-text">
               <p>
                 <FormattedMessage
-                  id='projects-info-13-p1'
-                  defaultMessage='Inspired Gamer, page created for the sale of digital and physical video games.'
+                  id='projects-info-4-p1'
+                  defaultMessage='Twitter application on Cloud'
                 />
               </p>
               <p>
                 <FormattedMessage
-                  id='projects-info-13-p2'
-                  defaultMessage='Developed so that the client can choose their console, be it PSP 5 or Xbox X, and be able to browse exclusive pages for each console.'
+                  id='projects-info-4-p2'
+                  defaultMessage='Implemented a DevOps hosting project on AWS, orchestrating frontend and backend services for a Twitter-like application, complete with automated scaling tests and insightful dashboards using ECS and CloudWatch Insights.'
                 />
               </p>
               <div className="eins-modal-text-2">
-                <span>Link:</span> <a href="https://nahuel61920.github.io/InspiredGamer" target="_blank">https://inspired-gamer.com</a>
+                <span>Link:</span> <a href="https://aamrahms.github.io/FourthWing/" target="_blank">https://fourthwing.com</a>
               </div>
               <div className="eins-modal-text-3">
                 <span>
@@ -343,17 +385,17 @@ const Project = () => {
                   />
                 </span>
                 <div className="eins-modal-tec">
-                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" alt="" />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </Modal>
-
+      
       <Modal
         estado={estadoModal12}
         cambiarEstado={cambiarEstadoModal12}

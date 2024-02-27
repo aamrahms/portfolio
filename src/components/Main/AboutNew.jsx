@@ -51,7 +51,7 @@ const About = () => {
               <p>
                 <FormattedMessage
                   id='about-info-1'
-                  defaultMessage="Welcome to my digital space! Let me introduce myself. I am an engineer by profession and passion."
+                  defaultMessage="Welcome to my digital abode! Let me help you dive into all things me! I am a software engineer expertising in full stack software development."
                 />
               </p>
 
@@ -59,20 +59,20 @@ const About = () => {
                 <p>
                   <FormattedMessage
                     id='about-info-2'
-                    defaultMessage='My passion lies in crafting web experiences that are both enjoyable and intuitive. I strive to create solutions that I would personally love to use, driving many of my academic and personal projects.'
+                    defaultMessage="My passion lies in crafting web experiences that are both enjoyable and intuitive. I strive to create solutions to problems I consider the need of the hour, something I would personally love to use; this ultimately has been the driving force for many of my projects. From a young age, I've been fascinated by the process of creation, often inspired by &quot;How It's Made&quot; videos. Coupled with my love for fantasy literature, it's no surprise that I find myself wading through the murky waters of software development with a wooden raft seeking shore day in and day out."
                   />
                 </p>
 
                 <p>
                   <FormattedMessage
                     id='about-info-3'
-                    defaultMessage="My career path has been diverse, akin to the adventures of Dora the Explorer. With experience ranging from support administration to backend and frontend development, I bring a versatile skill set to the table. From a young age, I've been fascinated by the process of creation, often inspired by &quot;How It's Made&quot; videos. Coupled with my love for fantasy literature, it's no surprise that I find myself here today."
+                    defaultMessage="My journey into this field has been like the adventures of Dora the Explorer. With experience ranging from support administration to backend and frontend development, I bring a versatile skill set to the table. I believe in continuous learning and growth, always seeking new challenges to broaden my horizons. "
                   />
                 </p>
                 <p>
                   <FormattedMessage
                     id='about-info-4'
-                    defaultMessage="Outside of work, you'll likely find me exploring new technologies, diving into a captivating fantasy novel, or indulging in a spot of DIY crafting. I believe in continuous learning and growth, always seeking new challenges to broaden my horizons. Thank you for visiting my digital abode. I look forward to connecting and exploring potential opportunities together!"
+                    defaultMessage="Thank you for the time you have taken to read about me. I look forward to connecting and exploring potential opportunities together! I am actively seeking and open to work so feel free to contact me and I will be sure to get back to you asap!"
                   />
                 </p>
               </div>
