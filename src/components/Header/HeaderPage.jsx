@@ -43,12 +43,12 @@ const HeaderPage = () => {
                         defaultMessage='Home'
                     />
                 </NavLink>
-                <NavLink to="/about" offset={-150} duration={500}>
+                {/* <NavLink to="/about" offset={-150} duration={500}>
                     <FormattedMessage
                         id='about'
                         defaultMessage='About me'
                     />
-                </NavLink>
+                </NavLink> */}
                 {/* <NavLink to="/service" offset={-150} duration={500}>
                     <FormattedMessage
                         id='services'

@@ -24,8 +24,8 @@ const Footer = () =>{
                 <div className="redes-sociales">
                     <a href="https://www.linkedin.com/in/aamraha/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
                     <a href="https://github.com/aamrahms" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-                    <a href="https://www.instagram.com/nahuelcarrizolc/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-                    <a href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
+                    <a href="mailto:aamrah.ams@gmail.com" target="_blank" rel="noopener noreferrer"><i className="fab fas fa-envelope"></i></a>
+                    <a href="https://www.facebook.com/twilight4evr/" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a>
                 </div>
             </div>
         </footer>
