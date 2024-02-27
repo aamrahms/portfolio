@@ -205,7 +205,7 @@ const About = () => (
                         <h5>Bootstrap</h5>
                     </div>
                     <div>
-                        <img alt="Tailwindcss" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+                        <img alt="Tailwindcss" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
                         <h5>Tailwindcss</h5>
                     </div>
                     <div>
@@ -248,7 +248,7 @@ const About = () => (
                         <h5>C sharp</h5>
                     </div>
                     <div>
-                        <img alt="Nodejs" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                        <img alt="Nodejs" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
                         <h5>NodeJs</h5>
                     </div>
                     <div>
@@ -263,7 +263,7 @@ const About = () => (
                 <h4>Cloud</h4>
                 <div className="skill">
                     <div>
-                        <img alt="aws" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" />
+                        <img alt="aws" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-woodmark.svg" />
                         <h5>AWS</h5>
                     </div>
                     <div>

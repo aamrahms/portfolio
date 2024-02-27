@@ -159,7 +159,7 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-up" data-aos-delay="300">
-                <img alt="nodejs" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" title="jQuery" />
+                <img alt="nodejs" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" title="jQuery" />
                 <h2 className="skill-name">NodeJs</h2>
                 <p className="skill-info">
                   <FormattedMessage
@@ -247,7 +247,7 @@ const About = () => {
               </div>
               {/* 16 */} 
               <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
-                <img alt="express" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" title="jQuery" />
+                <img alt="express" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" title="jQuery" />
                 <h2 className="skill-name">Amazon Web Services</h2>
                 <p className="skill-info">
                   <FormattedMessage

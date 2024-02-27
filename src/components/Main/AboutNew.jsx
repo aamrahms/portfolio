@@ -14,8 +14,20 @@ import imgabout from '../../img/Aamrah.jpg';
 const img = require.context('../../img', true);
 console.log(process.env);
 
-const About = () => (
+const About = () => {
+    function readMore() {
+        let btnHide = document.querySelector("#btn-hide");
+        let parrafoActive = document.querySelector(".parrafo-active");
     
+        parrafoActive.classList.toggle("show");
+    
+        if (parrafoActive.classList.contains("show")) {
+          btnHide.innerHTML = "↑";
+        } else {
+          btnHide.innerHTML = "Read more";
+        }
+      }
+    return(
     <section className="sobre-mi" id="sobre-mi">
         <h2 className="heading">
             <FormattedMessage
@@ -84,8 +96,8 @@ const About = () => (
                     </div>    
             </div> */}
 
-              <div className="btn-info">
-                  {/* onClick={readMore} */}
+              <div className="btn-info"
+                  onClick={readMore}>
                 <div className="custom-btn btn-codigo" id="btn-hide"  ><span>Read more</span></div>
               </div>
             </div>
@@ -210,6 +222,7 @@ const About = () => (
             
         </div>
     </section>
-);
+    )
+};
 
 export default React.memo(About);

@@ -51,6 +51,12 @@ body.dark .navbar .active-link::before {
 
 /********************** Sobre Mi **********************/
 
+body.dark .sobre-mi-info {
+  background: rgb(14, 12, 12);
+  color: var(--purple);
+}
+
+
 body.dark section .row .columns {
   background: rgb(14, 12, 12);
   color: var(--light-color);

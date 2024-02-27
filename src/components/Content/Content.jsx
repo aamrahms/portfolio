@@ -37,8 +37,8 @@ const Content = () => (
                 <div className="redes-sociales">
                     <a href="https://www.linkedin.com/in/aamraha/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1200"><i className="fab fa-linkedin"></i></a>
                     <a href="https://github.com/aamrahms" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1400"><i className="fab fa-github"></i></a>
-                    <a href="https://www.instagram.com/nahuelcarrizolc/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1600"><i className="fab fa-instagram"></i></a>
-                    <a href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1800"><i className="fab fa-whatsapp"></i></a>
+                    <a href="" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1600"><i className="fab fas fa-envelope"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1800"><i className="fab fa-google-drive"></i></a>
                 </div>
                 <div className="wrapper">
                     <a className="button" href="https://www.linkedin.com/in/aamraha/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1200">
