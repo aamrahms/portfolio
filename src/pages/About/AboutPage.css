@@ -4,7 +4,7 @@
   position: relative;
   padding: 10px 25px;
   background-color: transparent;
-  color: var(--black);
+  color: var(--white);
   text-decoration: none;
   font-size: 1.5rem;
   text-align: center;
@@ -95,11 +95,11 @@ body.dark .buttonDownload:hover {
 
 section .row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   gap: 1.5rem;
 }
 #experience {
-  grid-template-columns: repeat(autofit, minmax(40rem, 1fr));
+  grid-template-columns: repeat(autofit, minmax(35rem, 1fr));
 }
 
 section .row .columns {
@@ -225,7 +225,7 @@ section .row .columns .skill img:hover {
   -webkit-align-items: flex-end;
 }
 .sobre-mi-info {
-  padding: 2rem 2rem 0 2rem;
+  padding: 1rem 1rem 0 1rem;
   background: rgba(255, 255, 255, 0.7);
   box-shadow: var(--box-shadow);
   border: var(--borde);
@@ -235,7 +235,7 @@ section .row .columns .skill img:hover {
 
 .sobre-mi-info p {
   color: #000;
-  font-size: 2rem;
+  font-size: 1.7rem;
   line-height: 2;
   text-transform: none;
   padding-bottom: 1rem;
