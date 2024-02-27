@@ -70,10 +70,10 @@
   background: #333;
 }
 .wrapper .button:nth-child(3):hover .icon {
-  background: #e1306c;
+  background: #b3251e;
 }
 .wrapper .button:nth-child(4):hover .icon {
-  background: #4fc35b;
+  background: #fabc05;
 }
 .wrapper .button .icon i {
   font-size: 25px;
@@ -98,10 +98,10 @@
   background-color: #333;
 }
 .wrapper .button:nth-child(3):hover {
-  background-color: #e1306c;
+  background-color: #b3251e;
 }
 .wrapper .button:nth-child(4):hover {
-  background-color: #4fc35b;
+  background-color: #168037;
 }
 
 .titulo .redes-sociales {

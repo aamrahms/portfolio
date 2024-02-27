@@ -25,13 +25,22 @@ const Contact = () => (
                 className="site-contacto"
                 loop={Infinity}
                 wrapper="b"
+                // steps={[
+                //     'Gmail', 1500,
+                //     'Outlook', 1500,
+                //     'Facebook', 1500,
+                //     'Drive', 1500,
+                //     'Linkedin', 1500,
+                //     'Github', 1500,
+                // ]}
                 steps={[
-                    'Gmail', 1500,
-                    'WhatsApp', 1500,
-                    'Instragram', 1500,
-                    'Telegram', 1500,
-                    'Linkedin', 1500,
-                    'Github', 1500,
+                    '', 1000, // Initial delay before typing starts
+                    'Gmail', 1500, '', 500, // Display "Gmail", then delay before erasing
+                    'Outlook', 1500, '', 500, // Display "Outlook", then delay
+                    'Facebook', 1500, '', 500, // And so on...
+                    'Drive', 1500, '', 500,
+                    'Linkedin', 1500, '', 500,
+                    'Github', 1500, '', 500, // Last item before loop restarts
                 ]}
             />
 
@@ -50,31 +59,7 @@ const Contact = () => (
                     Gmail
                 </div>
             </a>
-            <a href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
-                <div className="layer">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span className="fab fa-whatsapp"></span>
-                </div>
-                <div className="text">
-                    Whatsapp
-                </div>
-            </a>
-            <a href="https://www.instagram.com/nahuelcarrizolc/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
-                <div className="layer">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span className="fab fa-instagram"></span>
-                </div>
-                <div className="text">
-                    Instagram
-                </div>
-            </a>
-            <a href="https://t.me/estebanU20" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+            <a href="mailto:aamrah.a@northeastern.edu" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
                 <div className="layer">
                     <span></span>
                     <span></span>
@@ -83,7 +68,31 @@ const Contact = () => (
                     <span className="fab fa-telegram"></span>
                 </div>
                 <div className="text">
-                    telegram
+                    Outlook
+                </div>
+            </a>
+            <a href="https://www.facebook.com/twilight4evr/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+                <div className="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span className="fab fa-facebook"></span>
+                </div>
+                <div className="text">
+                    Facebook
+                </div>
+            </a>
+            <a href="https://drive.google.com/drive/u/1/folders/13IEMnA9kFndOFjJw47n9J3dZF4Gr6HHC" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+                <div className="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span className="fab fa-google-drive"></span>
+                </div>
+                <div className="text">
+                    Google Drive
                 </div>
             </a>
             <a href="https://www.linkedin.com/in/aamraha/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
