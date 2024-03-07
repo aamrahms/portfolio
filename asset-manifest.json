@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://aamrahms.github.io/portfolio/static/css/main.a1b088ec.css",
-    "main.js": "https://aamrahms.github.io/portfolio/static/js/main.67f9b324.js",
+    "main.js": "https://aamrahms.github.io/portfolio/static/js/main.2363cdc0.js",
     "static/js/787.159dca72.chunk.js": "https://aamrahms.github.io/portfolio/static/js/787.159dca72.chunk.js",
     "static/media/aamrahms-2.png": "https://aamrahms.github.io/portfolio/static/media/aamrahms-2.670f73bd0123941dfe69.png",
     "static/media/aamrahms-5.png": "https://aamrahms.github.io/portfolio/static/media/aamrahms-5.f820da2f0d89a47ed700.png",
@@ -22,7 +22,7 @@
     "static/media/kelloggslogo.png": "https://aamrahms.github.io/portfolio/static/media/kelloggslogo.924a5952a61c24070750.png",
     "static/media/kelloggslogo.svg": "https://aamrahms.github.io/portfolio/static/media/kelloggslogo.924a5952a61c24070750.svg",
     "static/media/proyecto-5-com.png": "https://aamrahms.github.io/portfolio/static/media/proyecto-5-com.6ba644471266de376326.png",
-    "static/media/cv.pdf": "https://aamrahms.github.io/portfolio/static/media/cv.77dd9958df6f3f9238c8.pdf",
+    "static/media/cv.pdf": "https://aamrahms.github.io/portfolio/static/media/cv.b1e948b6f562da4fc7eb.pdf",
     "static/media/proyecto-11-com.png": "https://aamrahms.github.io/portfolio/static/media/proyecto-11-com.f62a13d09a93136aaab3.png",
     "static/media/proyecto-6-com.png": "https://aamrahms.github.io/portfolio/static/media/proyecto-6-com.793e6636e20b75e30b41.png",
     "static/media/home.jpg": "https://aamrahms.github.io/portfolio/static/media/home.f1a09df030145247bf7c.jpg",
@@ -79,11 +79,11 @@
     "static/media/proyecto-app-2.jpg": "https://aamrahms.github.io/portfolio/static/media/proyecto-app-2.5d8ddf1cc2638b419fd5.jpg",
     "index.html": "https://aamrahms.github.io/portfolio/index.html",
     "main.a1b088ec.css.map": "https://aamrahms.github.io/portfolio/static/css/main.a1b088ec.css.map",
-    "main.67f9b324.js.map": "https://aamrahms.github.io/portfolio/static/js/main.67f9b324.js.map",
+    "main.2363cdc0.js.map": "https://aamrahms.github.io/portfolio/static/js/main.2363cdc0.js.map",
     "787.159dca72.chunk.js.map": "https://aamrahms.github.io/portfolio/static/js/787.159dca72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a1b088ec.css",
-    "static/js/main.67f9b324.js"
+    "static/js/main.2363cdc0.js"
   ]
 }
